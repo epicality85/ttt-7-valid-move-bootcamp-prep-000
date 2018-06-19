@@ -1,7 +1,9 @@
 # code your #valid_move? method here
 def valid_move?(board_array, index)
   if position_taken?(board_array, index) == FALSE and index >= 0 and index < board_array.length
-    
+    return TRUE
+  else
+    return FALSE
   end
 end
 
